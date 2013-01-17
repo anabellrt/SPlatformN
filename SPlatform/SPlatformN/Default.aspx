@@ -7,6 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Plataforma de Gestión RUP/RUDI</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+    <link href="css/login.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -32,17 +33,64 @@
             <div class="green_box">
 
               
-                <div class="text_content">
+                <div class="text_content" style="width:auto">
                     <h1>Bienvenido al portal</h1>
                     <p class="green">
                        Para tener acceso a la funcionalidad completa del portal debe acceder con su usuario y contraseña.
                     </p>
+                      <img src="images/lock-icon.png" style="float:left" />
+                    <asp:Login ID="lgnForm" runat="server" CssClass="form-5" Width="384px">
+                        <LayoutTemplate>
+                            <table cellpadding="1" cellspacing="0" style="border-collapse:collapse;">
+                                <tr>
+                                    <td>
+                                        <table cellpadding="0" style="width:319px;">
+                                            <tr>
+                                                <td align="center" colspan="2">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <asp:Label ID="UserNameLabel" runat="server" AssociatedControlID="UserName" CssClass="Labels">Nombre de usuario:</asp:Label>
+                                                </td>
+                                                <td class="field">
+                                                    <asp:TextBox ID="UserName" runat="server" CssClass="Textbox"></asp:TextBox>
+                                                    <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserName" ErrorMessage="El nombre de usuario es obligatorio." ToolTip="El nombre de usuario es obligatorio." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <asp:Label ID="PasswordLabel" runat="server" AssociatedControlID="Password" CssClass="Labels">Contraseña:</asp:Label>
+                                                </td>
+                                                <td class="field">
+                                                    <asp:TextBox ID="Password" runat="server" TextMode="Password" CssClass="Textbox"></asp:TextBox>
+                                                    <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="Password" ErrorMessage="La contraseña es obligatoria." ToolTip="La contraseña es obligatoria." ValidationGroup="Login1">*</asp:RequiredFieldValidator>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    &nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" colspan="2" style="color:Red;">
+                                                    <asp:Literal ID="FailureText" runat="server" EnableViewState="False" ></asp:Literal>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" colspan="2">
+                                                    <asp:Button ID="LoginButton" runat="server" CommandName="Login" Text="Inicio de sesión" ValidationGroup="Login1" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </LayoutTemplate>
+                        </asp:Login>
                   
                 </div>
 
-                <div id="right_nav">
-                        <img src="images/lock-icon.png" />
-                   
+                <div id="right_nav" style="width:auto">
+                      
                 </div>
 
 

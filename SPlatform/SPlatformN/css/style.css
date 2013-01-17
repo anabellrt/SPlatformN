@@ -566,3 +566,36 @@ textarea.contact_textarea {
             text-decoration: underline;
             color: #fff;
         }
+
+
+.logincontrol {
+    float:right;
+}
+
+
+.Login .Textbox, .Login .Hover
+{
+    width: 337px;
+    height: 17px;
+    background:transparent;
+    color: Black;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.Login .Labels {
+    color: #FFFFCC;
+    font-weight: bolder;
+    font-family: Tahoma;
+    font-size: 1.5em;
+}
+
+
+  
+.Login .Hover
+{
+    background:transparent ;
+}
+
+

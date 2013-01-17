@@ -141,10 +141,12 @@
     <Content Include="Images\inicio.png" />
     <Content Include="Images\left_content_bg.gif" />
     <Content Include="Images\left_nav_arrow.gif" />
+    <Content Include="Images\lock-icon.png" />
     <Content Include="Images\logo.gif" />
     <Content Include="Images\menu_arrow.gif" />
     <Content Include="Images\news_icon.gif" />
     <Content Include="Images\orange_bullet.gif" />
+    <Content Include="Images\organigrama.png" />
     <Content Include="Images\soluciones.png" />
     <Content Include="Images\user.png" />
     <Content Include="packages.config" />
