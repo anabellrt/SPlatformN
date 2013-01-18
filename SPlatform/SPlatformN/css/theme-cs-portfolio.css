@@ -10,7 +10,7 @@ through which the background color is seen... so colors set will turn out darker
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID & dimensions to match your slider */
-#slider {
+#slider1 {
 	width: 700px;
 	height: 390px;
 	list-style: none;

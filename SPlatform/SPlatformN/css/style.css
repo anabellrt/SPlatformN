@@ -331,6 +331,7 @@ img.box_img {
     height: 110px;
     padding: 10px 0 5px 0;
     border-bottom: 1px #a7ef6e dashed;
+    color: #000000
 }
 
 .search_box {

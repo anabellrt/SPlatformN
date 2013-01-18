@@ -750,6 +750,7 @@
     width: 300px;
     margin: 60px auto 30px;
     position: relative;
+    float:right;
 
     /* Styles */
     border-radius: 5px;

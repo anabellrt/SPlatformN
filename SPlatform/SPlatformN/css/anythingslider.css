@@ -9,7 +9,7 @@
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID & dimensions to match your slider */
-#slider {
+#slide:  {
 	width: 700px;
 	height: 390px;
 	list-style: none;
@@ -32,8 +32,8 @@
 }
 /* slider window - top & bottom borders, default state */
 .anythingSlider-default .anythingWindow {
-	border-top: 3px solid #777;
-	border-bottom: 3px solid #777;
+	orborder-top: 3px solid #777;
+	border-bottom: 3px solid #777;st
 }
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-default .anythingControls a {
@@ -115,31 +115,42 @@
  ************************/
 /* Navigation Arrows */
 .anythingSlider-default .arrow {
-	top: 50%;
+	/*top: 50%;
 	position: absolute;
-	display: block;
+	display: block;*/
+    	display: block;
+	position: absolute;
+	bottom: -38px;
+	z-index: 100;
 }
 
 .anythingSlider-default .arrow a {
-	display: block;
+	/*display: block;
 	width: 45px;
 	height: 140px;
-	margin: -70px 0 0 0; /* half height of image */
+	margin: -70px 0 0 0; 
 	text-align: center;
 	outline: 0;
-	background: url(../images/default.png) no-repeat;
+	background: url(../images/default.png) no-repeat;*/
+    	display: block;
+	width: 26px;
+	height: 27px;
+	text-align: center;
+	outline: 0;
+	background: url(../images/cs-portfolio.png) no-repeat;
 }
 
 /* back arrow */
-.anythingSlider-default .back { left: 0; }
-.anythingSlider-default .back a { background-position: left top; }
-.anythingSlider-default .back a:hover,
-.anythingSlider-default .back a.hover { background-position: left -140px; }
+.anythingSlider-cs-portfolio .back { left: 20px; }
+.anythingSlider-cs-portfolio .back a { background-position: left top; }
+.anythingSlider-cs-portfolio .back a:hover,
+.anythingSlider-cs-portfolio .back a.hover { background-position: left -27px; }
+
 /* forward arrow */
-.anythingSlider-default .forward { right: 0; }
-.anythingSlider-default .forward a { background-position: right top; }
-.anythingSlider-default .forward a:hover,
-.anythingSlider-default .forward a.hover { background-position: right -140px; }
+.anythingSlider-cs-portfolio .forward { right: 20px; }
+.anythingSlider-cs-portfolio .forward a { background-position: -24px top; }
+.anythingSlider-cs-portfolio .forward a:hover,
+.anythingSlider-cs-portfolio .forward a.hover { background-position: -24px -27px; }
 
 /* Navigation Links */
 .anythingSlider-default .anythingControls { outline: 0; display: none; }

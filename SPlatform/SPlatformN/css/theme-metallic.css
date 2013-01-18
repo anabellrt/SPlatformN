@@ -6,9 +6,9 @@
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID & dimensions to match your slider */
-#slider {
-	width: 700px;
-	height: 390px;
+#slider1 {
+	width: 424px;
+	height: 250px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
@@ -29,8 +29,8 @@
 }
 /* slider window - top & bottom borders, default state */
 .anythingSlider-metallic .anythingWindow {
-	border-top: 3px solid #333;
-	border-bottom: 3px solid #333;
+	/*border-top: 3px solid #333;
+	border-bottom: 3px solid #333;*/
 }
 /* Navigation buttons + start/stop button, default state */
 .anythingSlider-metallic .anythingControls a {
@@ -131,6 +131,9 @@
 	text-align: center;
 	outline: 0;
 	background: url(../images/arrows-metallic.png) no-repeat;
+
+
+
 }
 
 /* back arrow */
@@ -266,7 +269,7 @@ IE8 AND OLDER STYLING
 .anythingSlider .panel {
 	background: transparent;
 	display: block;
-	overflow: hidden;
+	overflow:visible;
 	float: left;
 	padding: 0;
 	margin: 0;
