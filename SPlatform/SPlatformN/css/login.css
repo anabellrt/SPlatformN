@@ -779,9 +779,9 @@
         inset 0 0 10px rgba(255,255,255,0.5);
 
     /* Font styles */
-    font-family: 'Montserrat', sans-serif;
+    font-family:  Arial,Verdana;
     text-indent: 10px;
-    color: #ee4c8d;
+    color: #fff;
     text-shadow: 0 1px 2px rgba(0,0,0,0.3);
     font-size: 20px;       
 }
@@ -810,21 +810,21 @@
 /* Placeholder style (from http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css) */
 
 .form-5 input::-webkit-input-placeholder {
-    color: #fff;
+    color: #CCCCCC;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
-    font-family: 'Handlee', cursive;
+    font-family: Tahoma,Arial,Verdana;
 }
 
 .form-5 input:-moz-placeholder {
-    color: #fff;
+    color:  #CCCCCC;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
-    font-family: 'Handlee', cursive;
+    font-family: Tahoma,Arial,Verdana;
 }
 
 .form-5 input:-ms-input-placeholder {
-    color: #fff;
+    color:  #CCCCCC;
     text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
-    font-family: 'Handlee', cursive;
+    font-family: Tahoma,Arial,Verdana;
 }
 
 .form-5 button {
@@ -836,13 +836,13 @@
     overflow: hidden;
 
     /* Styles */
-    background: #ee4c8d;
-    background: url(../images/noise.png), -moz-radial-gradient(center, ellipse cover, #ee4c8d 0%, #b53467 100%);
-    background: url(../images/noise.png), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ee4c8d), color-stop(100%,#b53467));
-    background: url(../images/noise.png), -webkit-radial-gradient(center, ellipse cover, #ee4c8d 0%,#b53467 100%);
-    background: url(../images/noise.png), -o-radial-gradient(center, ellipse cover, #ee4c8d 0%,#b53467 100%);
-    background: url(../images/noise.png), -ms-radial-gradient(center, ellipse cover, #ee4c8d 0%,#b53467 100%);
-    background: url(../images/noise.png), radial-gradient(ellipse at center, #ee4c8d 0%,#b53467 100%);
+    background: #f7951e;
+    background: url(../images/noise.png), -moz-radial-gradient(center, ellipse cover, #f7951e 0%, #C27211 100%);
+    background: url(../images/noise.png), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f7951e), color-stop(100%,#C27211));
+    background: url(../images/noise.png), -webkit-radial-gradient(center, ellipse cover, #f7951e 0%,#C27211 100%);
+    background: url(../images/noise.png), -o-radial-gradient(center, ellipse cover, #f7951e 0%,#C27211 100%);
+    background: url(../images/noise.png), -ms-radial-gradient(center, ellipse cover, #f7951e 0%,#C27211 100%);
+    background: url(../images/noise.png), radial-gradient(ellipse at center, #f7951e 0%,#isplay 100%);
 
     border-radius: 0 5px 5px 0;
     box-shadow:
@@ -879,7 +879,7 @@
 
     /* Font styles */ 
     color: #8d1645;
-    font-family: 'Montserrat', Arial, sans-serif; 
+    font-family:  Tahoma,Arial,Verdana;
     font-size: 20px;
     text-shadow: 0 1px 0 rgba(255,255,255,0.4);
 

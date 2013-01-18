@@ -66,11 +66,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.css" />
+    <Content Include="css\anythingslider.css" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\login.css" />
     <Content Include="css\style.css" />
+    <Content Include="css\theme-construction.css" />
+    <Content Include="css\theme-cs-portfolio.css" />
+    <Content Include="css\theme-metallic.css" />
+    <Content Include="css\theme-minimalist-round.css" />
+    <Content Include="css\theme-minimalist-square.css" />
+    <Content Include="font\fontawesome-webfont.svg" />
+    <Content Include="Images\arrows-metallic.png" />
+    <Content Include="Images\arrows-minimalist.png" />
+    <Content Include="Images\bg.jpg" />
     <Content Include="Images\box_icon.gif" />
     <Content Include="Images\bullet.gif" />
     <Content Include="Images\clock.gif" />
     <Content Include="Images\clock.png" />
+    <Content Include="Images\construction.gif" />
     <Content Include="Images\contactanos.png" />
     <Content Include="Images\contact_icon.gif" />
     <Content Include="Images\contact_info_bg.gif" />
@@ -135,6 +150,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Images\cs-portfolio.png" />
+    <Content Include="Images\default.png" />
     <Content Include="Images\favoritos.png" />
     <Content Include="Images\footer_logo.gif" />
     <Content Include="Images\green_box_bg.gif" />
@@ -142,14 +159,19 @@
     <Content Include="Images\left_content_bg.gif" />
     <Content Include="Images\left_nav_arrow.gif" />
     <Content Include="Images\lock-icon.png" />
+    <Content Include="Images\lock-icon2.png" />
     <Content Include="Images\logo.gif" />
     <Content Include="Images\menu_arrow.gif" />
     <Content Include="Images\news_icon.gif" />
+    <Content Include="Images\noise.png" />
     <Content Include="Images\orange_bullet.gif" />
     <Content Include="Images\organigrama.png" />
     <Content Include="Images\soluciones.png" />
     <Content Include="Images\user.png" />
     <Content Include="packages.config" />
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
     <None Include="Scripts\jquery-1.9.0.intellisense.js" />
     <Content Include="Images\phone_icon.gif" />
     <Content Include="Images\pic1.jpg" />
@@ -164,11 +186,17 @@
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery-ui-1.9.2.js" />
     <Content Include="Scripts\jquery-ui-1.9.2.min.js" />
+    <Content Include="Scripts\jquery.anythingslider.fx.min.js" />
+    <Content Include="Scripts\jquery.anythingslider.min.js" />
+    <Content Include="Scripts\jquery.anythingslider.video.min.js" />
+    <Content Include="Scripts\jquery.easing.1.2.js" />
+    <Content Include="Scripts\jquery.placeholder.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Images\search.gif" />
     <Content Include="Images\search_box_bg.gif" />
     <Content Include="Images\testimonials_icon.gif" />
+    <Content Include="Scripts\swfobject.js" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.9.0.min.map" />
   </ItemGroup>
