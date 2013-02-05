@@ -78,6 +78,7 @@
     <Content Include="css\theme-minimalist-round.css" />
     <Content Include="css\theme-minimalist-square.css" />
     <Content Include="font\fontawesome-webfont.svg" />
+    <Content Include="Images\Apps-kpresenter-icon.png" />
     <Content Include="Images\arrows-metallic.png" />
     <Content Include="Images\arrows-minimalist.png" />
     <Content Include="Images\bg.jpg" />
@@ -152,7 +153,9 @@
     <Content Include="Default.aspx" />
     <Content Include="Images\cs-portfolio.png" />
     <Content Include="Images\default.png" />
+    <Content Include="Images\expedient.png" />
     <Content Include="Images\favoritos.png" />
+    <Content Include="Images\Folder-Data-icon.png" />
     <Content Include="Images\footer_logo.gif" />
     <Content Include="Images\green_box_bg.gif" />
     <Content Include="Images\inicio.png" />
@@ -167,7 +170,10 @@
     <Content Include="Images\orange_bullet.gif" />
     <Content Include="Images\organigrama.png" />
     <Content Include="Images\soluciones.png" />
+    <Content Include="Images\tandotek_small_trans.png" />
+    <Content Include="Images\tandotek_trans.png" />
     <Content Include="Images\user.png" />
+    <Content Include="Images\worldcomputer.png" />
     <Content Include="packages.config" />
     <Content Include="font\fontawesome-webfont.eot" />
     <Content Include="font\fontawesome-webfont.ttf" />
@@ -187,6 +193,7 @@
     <Content Include="Scripts\jquery-ui-1.9.2.js" />
     <Content Include="Scripts\jquery-ui-1.9.2.min.js" />
     <Content Include="Scripts\jquery.anythingslider.fx.min.js" />
+    <Content Include="Scripts\jquery.anythingslider.js" />
     <Content Include="Scripts\jquery.anythingslider.min.js" />
     <Content Include="Scripts\jquery.anythingslider.video.min.js" />
     <Content Include="Scripts\jquery.easing.1.2.js" />
